@@ -1,0 +1,78 @@
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.box::before {
+  content: "\2610";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.check-box::before {
+  content: "\2611";
+  color: dodgerblue;
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.zoom{
+transition: transform .2s; /* Animation */}
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.con{
+  margin-left: 7%;
+}
+
+.pic {
+   
+  background: transparent;
+  height:auto;
+ 
+ box-shadow: inset 2px 2px 2px  lightblue;
+}
+.pic:hover{
+  box-shadow: inset 2px 2px 2px #46e4a2;
+}
+
+a{
+  color: #000;
+}
+
+li{
+  color: #000000;
+  font-weight:350;
+  font-size: 24px;
+  letter-spacing: 10px;
+  line-height: 1.15;
+}
+
+.bold2{
+  font-size: 20px;
+  font-weight: bold;
+}
+.bold3 {
+  font-size: 16px;
+}

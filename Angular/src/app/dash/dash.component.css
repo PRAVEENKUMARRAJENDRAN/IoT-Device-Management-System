@@ -1,0 +1,99 @@
+.size{
+ 
+width: 80%;
+float: left;
+height: 90%;
+}
+
+.size1{
+  width: 80%;
+  float: left;
+  height: 15%;
+  }
+/*
+.zoom{
+    transition: transform .2s;}*/
+   /* .zoom:hover {
+      transform: scale(1.1);  } 
+*/
+
+
+
+.zoom{
+  margin: 20px;
+ background: transparent;
+ 
+}
+.zoom:hover{
+  box-shadow: inset -6px -6px 10px rgba(70, 190, 184, 0.616),
+               inset 6px  6px 20px  rgba(98, 165, 165, 0.05);
+}
+
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat",sans-serif;
+      }
+      .container{
+        position: absolute;
+        width: 100%;
+        top: 23%;
+        transform: translateY(-50%);
+        text-align: center;
+      }
+      .contact-method{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        background: #35ee3f; 
+        margin: 10px;
+        color: #fff;
+        position: relative;
+        cursor: pointer;
+        float: right;
+      }
+      .contact-method i{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 30px; 
+        line-height: 50px;
+        float:right;
+        background: red;
+        z-index: 1;
+        transition: transform 0.6s;
+      }
+      .contact-method span{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 10px 0;
+      }
+
+      .contact-method:hover i{
+        transform: translateY(-40px);
+      }
+
+
+      .pic {
+
+        height: max-content;
+
+      }
+
+
+      .bbox{
+        width: 100%;
+        display: inline;
+      }
+      .box1{
+        float: left;
+        width: 50%;
+        height: 50%;
+        padding-left: 5%;
+        
+      }

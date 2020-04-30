@@ -1,0 +1,262 @@
+<!----
+<div class="text">
+
+
+</div>
+
+
+<br>
+<br>
+<div class="container">
+  <tbody>
+  <div class="bigbox1">
+    <div class="box1">
+  <table class="table table-trapped">
+  
+       <tr>
+        <th>sid</th>
+       </tr>
+      <tr *ngFor="let data of json1['result']">
+        <td>{{data[0]}}</td></tr>
+
+
+  </table>
+
+</div>
+<div class="box1">
+
+  <table>
+    <tr>
+      <th>name</th>
+    </tr>
+
+    <tr *ngFor="let data of json1['result']">
+     <td>{{data[1]}}</td></tr>
+  </table>
+
+</div>
+<div class="box1">
+  <table class="table table-trapped">
+  
+       <tr>
+        <th>Value</th>
+       </tr>
+      <tr *ngFor="let data of json1['result']">
+        <td>{{data[2]}}</td></tr>
+
+
+  </table>
+
+</div>
+<div class="box1">
+  <table class="table table-trapped">
+  
+       <tr>
+        <th>Unit</th>
+       </tr>
+      <tr *ngFor="let data of json1['result']">
+        <td>{{data[3]}}</td></tr>
+
+        
+
+
+  </table>
+</div>
+<div class="box1">
+  <table class="table table-trapped">
+  
+       <tr>
+        <th>ip</th>
+       </tr>
+      <tr *ngFor="let data of json1['result']">
+        <td>{{data[4]}}</td></tr>
+
+        
+
+
+  </table>
+</div>
+<div class="box2">
+  <table class="table table-trapped">
+  
+       <tr>
+        <th>time</th>
+       </tr>
+      <tr *ngFor="let data of json1['result']">
+        <td>{{data[5]}}</td></tr>
+
+        
+
+
+  </table>
+
+</div>
+</div>
+</tbody>
+</div>
+//////////////////////////////////////////////////<!--
+<table>
+    <tbody>
+        <col width="50%">
+        <col width="25%">
+        <col width="25%">
+        <col width="25%">
+    <tr>
+      <th>SID</th>
+      
+      <th>Sensor Value</th>
+      
+      <th>Threshold</th>
+      
+      <th>Actions</th>
+    </tr>
+
+
+    <tr>
+            <td> {{json}} </td>
+       <td>100</td>
+      <td>50</td>
+       <td>
+          <ul>
+            <button type="button" class="btn btn-info">DELETE</button>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+        <td>w1</td>
+   <td>100</td>
+  <td>50</td>
+   <td>
+      <ul>
+        <button type="button" class="btn btn-info">DELETE</button>
+    </ul>
+  </td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+<tr>
+    <td>w1</td>
+<td>100</td>
+<td>50</td>
+<td>
+  <ul>
+    <button type="button" class="btn btn-info">DELETE</button>
+</ul>
+</td>
+</tr>
+</tbody>
+  </table> -->
+
+<!--
+  <pre>
+    {{json1}}
+  </pre>
+-->
+
+<div class="container">
+  <tbody>
+  <div class="bigbox1">
+  
+<div class="box1">
+
+  <table>
+    <tr>
+      <th>Sensor_id</th>
+    </tr>
+
+    <tr *ngFor="let data of json1['result']">
+     <td>{{data[1]}}</td></tr>
+  </table>
+
+</div>
+
+
+
+
+
+
+<div class="box1">
+
+  <table>
+    <tr>
+      <th>Sensor_value</th>
+    </tr>
+
+    <tr *ngFor="let data of json1['result']">
+     <td>{{data[2]}}</td></tr>
+  </table>
+
+</div>
+
+
+
+
+<div class="box1">
+
+  <table>
+    <tr>
+      <th>time</th>
+    </tr>
+
+    <tr *ngFor="let data of json1['result']">
+     <td>{{data[5]}}</td></tr>
+  </table>
+
+</div>
+
+
+
+
+
+
+</div>
+</tbody>
+</div>

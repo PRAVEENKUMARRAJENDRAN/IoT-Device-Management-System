@@ -1,0 +1,62 @@
+*{
+  width: 100%;
+}
+.menu-spacer {
+    flex: 1 1 auto;
+  }
+  .bigbox1 {
+    width: 100%;
+    padding: 0px;
+    background: transparent;
+    font-size: 20px;
+    text-align: left;
+    margin:5px auto 5px;
+    font-weight: 500;
+    display: flex;
+    font-family: inherit;
+    height: auto;
+  }
+  
+  .box1{
+    width:35%;
+    height: auto;
+    float: left;
+    margin: 20px 10px;
+    transition: 0.35s;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flexbox;
+    
+  }
+  
+  .box2{
+  width:100%;
+  height: auto;
+  float: left;
+  margin: 20px 10px;
+  transition: 0.8s;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+ 
+  display: flexbox;
+  color:black;
+  }
+  
+  
+
+  
+  .pic1 {
+   
+   /* background-color: 	#7dc4a6;*/
+    background: linear-gradient(135deg,#7dc4a6,rgb(27, 197, 209));
+    height: max-content;
+   
+  }
+
+.wid{
+  width: 100%;
+}

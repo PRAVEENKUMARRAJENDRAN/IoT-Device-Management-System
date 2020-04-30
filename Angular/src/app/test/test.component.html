@@ -1,0 +1,22 @@
+<p>test works!</p>
+<pre>
+    {{json}}
+</pre>
+<div class="container">
+    <table class="table table-trapped">
+        <thead>
+            <tr>
+                <th>lat</th>
+                <th>long</th>
+                <th>sid</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of json['result']">
+                <td>{{data[0]}}</td>
+                <td>{{data[1]}}</td>
+                <td>{{data[2]}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

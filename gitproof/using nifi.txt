@@ -1,0 +1,14 @@
+Now in an empty canvas 
+Drag and Drop processors needed 
+like 
+listenhttp
+replace text
+evaluvate json path 
+execute stream command
+
+connect each processor with a Queu
+
+and configure each processor with the required changes
+
+so finally processors look like this
+

@@ -1,0 +1,57 @@
+<!--<form >
+    <label for="fname">SID</label><br>
+    <input type="text" id="fname" name="fname"><br>
+
+    <label for="lname">Sensor Name</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+
+    <label for="lname">Sensor Latitude</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Longitude</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Threshold</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Unit</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+  <br><br>
+
+    <input type="submit" value="Submit">
+  </form> -->
+  <div class="gre">
+    <div class="container-fluid">
+      <h2>update</h2>
+      <form [formGroup]="editForm1" (ngSubmit)="myedit()">
+        <div class="form-group">
+          <label>sid</label>
+          <input formControlName="sid" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>name</label>
+          <input formControlName="name" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>value</label>
+          <input formControlName="value" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>unit</label>
+          <input formControlName="unit" type="text" class="form-control">
+        </div>
+
+
+
+      </form>
+
+      <button class="btn btn-primary" (click)="myedit()" >submit</button>
+      a = {{editForm1.value | json }}
+    </div>
+  </div>
+

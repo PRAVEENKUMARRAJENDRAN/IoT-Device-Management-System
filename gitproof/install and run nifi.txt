@@ -1,0 +1,16 @@
+prerequisites install Java into the system  
+
+Download Nifi from https://nifi.apache.org/download.html
+
+download bin file 
+
+How to run Nifi
+In Terminal/cmd 
+
+Direct to the downloaded folder's destination then type cd nifi-1.10.0-bin/nifi-1.10.0/bin 
+then execute run-nifi.bat
+
+wait for a while 
+
+then open port 8080 in browser
+

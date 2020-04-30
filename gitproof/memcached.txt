@@ -1,0 +1,13 @@
+download and setup memcahced for python
+
+How to start server for Memecached 
+
+go to installed folder and run it in terminal/cmd
+
+execute memcached.exe -vv 
+
+then in new terminal/cmd 
+start 
+telnet localhost 11211
+
+successfully started the memecache 

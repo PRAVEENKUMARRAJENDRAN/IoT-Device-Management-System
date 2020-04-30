@@ -1,0 +1,117 @@
+<!--<form >
+    <label for="fname">SID</label><br>
+    <input type="text" id="fname" name="fname"><br>
+   
+    <label for="lname">Sensor Name</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Value</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Latitude</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Longitude</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Threshold</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="lname">Sensor Unit</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+  <br><br>
+
+  <button (click)="myinsert()">submit</button>
+  </form> 
+  
+  <button class="btn btn-primary">submit check</button>-->
+
+  <!--
+  <div class="container-fluid">
+    <h1>insert</h1>
+    <form #userForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
+      {{userForm.value | json }}
+      <hr/>
+      {{userModel  | json}}
+      <div class="form-group">
+        <label>sid</label>
+        <input type="text" class="form-control" name="sid" [ngModel]="userModel.sid">
+      </div>
+
+      <div class="form-group">
+        <label>name</label>
+        <input type="text" class="form-control" name="name" [ngModel]="userModel.name ">
+      </div>
+
+      <div class="form-group">
+        <label>value</label>
+        <input type="text" class="form-control" name="value" [ngModel]="userModel.value">
+      </div>
+
+      <div class="form-group">
+        <label>unit</label>
+        <input type="text" class="form-control" name="unit" [ngModel]="userModel.unit">
+      </div>
+
+
+      <button class="btn btn-primary" type="submit" >submit</button>
+
+
+    </form>
+  </div>
+
+  -->
+
+
+
+<div class="gre">
+
+  <div class="container-fluid">
+    <h2>add</h2>
+    <form [formGroup]="addForm1" (ngSubmit)="myinsert()">
+    <div class="form-group">
+      <label>sid</label>
+      <input formControlName="sid" type="text" class="form-control">
+    </div>
+
+ 
+
+
+
+  
+    <div class="form-group">
+      <label>name</label>
+      <input formControlName="name" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>value</label>
+      <input formControlName="value" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>unit</label>
+      <input formControlName="unit" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Latitude</label>
+      <input formControlName="Latitude" type="text" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label>Longitude</label>
+      <input formControlName="Longitude" type="text" class="form-control">
+    </div>
+
+
+  </form>
+
+    <button class="btn btn-primary" (click)="myinsert()" >submit</button>
+     a = {{addForm1.value | json }}
+   
+ 
+   
+  </div>
+</div>
